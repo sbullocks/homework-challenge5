@@ -50,7 +50,7 @@ This project is not licensed at this time.
 My coding class, [MDN](https://developer.mozilla.org/en-US/), [W3 Schools](https://www.w3schools.com/), [FontAwesome](https://fontawesome.com/), [Moment.js](https://momentjs.com/)..
 
 ## Link
-Click [here](https://github.com/sbullocks/homework-challenge5) to access the live website.
+Click [here](https://sbullocks.github.io/homework-challenge5/) to access the live website.
 
 ## Screenshot
 ![Alt text](./assets/images/completed-site.png)

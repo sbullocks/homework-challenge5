@@ -8,7 +8,7 @@ This is Homework Challenge # 5.
 
 * [Overview](#overview)
 
-* [How-It-Works](#How It Works)
+* [How-It-Works](#how-it-works)
 
 * [Test](#test)
 

@@ -1,101 +1,63 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler - Powered by JavaScript/Third-Party APIs.
 
-# 05 Third-Party APIs: Work Day Scheduler
+This is Homework Challenge # 5. 
 
-## Your Task
+* I used JavaScript and Third-Party APIs to provide functionality to the website.
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Table of Contents 
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+* [Overview](#overview)
 
-## User Story
+* [Functionality](#How It Works)
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+* [Test](#test)
 
-## Acceptance Criteria
+* [License](#license)
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+* [Contributing](#contributing)
 
-The following animation demonstrates the application functionality:
+* [Link](#link)
+   
+* [Screenshot](#screenshot)
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+* [Questions](#questions)
 
+## Overview
 
-## Grading Requirements
+This application is made to function as a live hour by hour journal.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## How It Works
 
-This Challenge is graded based on the following criteria: 
+The current date will always be displayed at the top of the page in real time. The user can enter and save events throughout their day as a schedule. The scheduler is color-coded to visually aid the user with past, present, and future time slots. Once the user enters their data, they can save it by clicking the "save" icon to the right of the entered text on the journal. The user can also clear the journal by pressing the clear button. If user does not clear, the data will be present upon reloading the page. 
 
-### Technical Acceptance Criteria: 40%
+* Red = current time
+* Gray = past time
+* Green = future time
+* "save" icons = blue button with photos inside.
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Test
 
-  * Uses a date utility library to work with date and time
+You can test this application by entering data into the journal and saving it. Then go to the console.log(s) to view any errors or the locally saved data.
+If you do not click the clear button and reload the page, the saved data will be present.
 
-### Deployment: 32%
+## License
 
-* Application deployed at live URL
+This project is not licensed at this time.
+<!-- ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) -->
+  
+## Contributing
 
-* Application loads with no errors
+My coding class, [MDN](https://developer.mozilla.org/en-US/), [W3 Schools](https://www.w3schools.com/), [FontAwesome](https://fontawesome.com/), [Moment.js](https://momentjs.com/)..
 
-* Application GitHub URL submitted
+## Link
+Click [here](https://github.com/sbullocks/homework-challenge5) to access the live website.
 
-* GitHub repo contains application code
+## Screenshot
+![Alt text](./assets/images/completed-site.png)
+![Alt text](./assets/images/empty-console-log.png)
+![Alt text](./assets/images/console-log-localStorage-saved.png) 
+![Alt text](./assets/images/console-log-localStorage-screenshot.png)
 
-### Application Quality: 15%
+## Questions
 
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+If you have any questions about the repo, contact me directly at sbullocks@gmail.com. You can find more of my work at [sbullocks](https://github.com/sbullocks).

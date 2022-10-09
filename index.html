@@ -8,9 +8,13 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!-- This link allows me to use Font Awesome icons -->
+    <!-- You place Font Awesome icons by using the prefix fa and the icon's name. -->
+    <!-- You can add additional styling to the FA icons by adding inside the carrots.. style="font-size:60px;color:red;" -->
+
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
@@ -28,11 +32,33 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
-      <!-- Timeblocks go here -->
+    <!-- clear button will remove the text entered on scheduler/console log. -->
+    <button id='clear' class='clearBtn col-lg-2' type='button'>Clear</button>
+
+    <!-- Timeblocks go here -->
+    
+    <br>
+    <!-- Example: id = hour. class = row that contains the time. class = col size for hours > hour in time 8:00 AM. text area class = area to enter text. button class creates column for save button and type button creates the button. class = Font Awesome with styling.-->
+      <!-- <div id="9" class="row time-block">  --> 
+      <!-- <div class='col-md-1 hour'>9:00 AM</div> -->
+      <!-- <textarea class='col-md-10 journal'></textarea> -->
+      <!-- <button class="saveBtn col-md-1" type="button"><i class="fas fa-lock"></i></button> -->
+      <!-- </div> -->
+    <!-- Example -->
+
+
+    <div id ="9" class="row time-block">
+      <div class='col-md-1 hour'>9:00 AM</div>
+      <textarea class='col-md-10 journal'></textarea>
+      <button class="saveBtn col-md-1" type="button"><i class="fa fa-lock" style="font-size:23px;color:purple;"></i></button>
     </div>
 
+    </div>
+<!-- Link all script files here. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./css/JS/script.js"></script>
   </body>
 </html>

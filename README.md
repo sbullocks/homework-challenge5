@@ -8,7 +8,7 @@ This is Homework Challenge # 5.
 
 * [Overview](#overview)
 
-* [Functionality](#How It Works)
+* [How-It-Works](#How It Works)
 
 * [Test](#test)
 
@@ -26,7 +26,7 @@ This is Homework Challenge # 5.
 
 This application is made to function as a live hour by hour journal.
 
-## How It Works
+## How-It-Works
 
 The current date will always be displayed at the top of the page in real time. The user can enter and save events throughout their day as a schedule. The scheduler is color-coded to visually aid the user with past, present, and future time slots. Once the user enters their data, they can save it by clicking the "save" icon to the right of the entered text on the journal. The user can also clear the journal by pressing the clear button. If user does not clear, the data will be present upon reloading the page. 
 
